@@ -1,0 +1,50 @@
+body
+ {
+  text-align:center;
+  margin:0;
+  padding:0;
+  list-style-position:inside;
+ }
+.header
+ {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color: rgb(174, 255, 255);
+  margin:0;
+  padding:0;
+ }
+ .name
+ {
+  font-family: 'Sacramento', cursive;
+  font-size:15vh;
+  margin:0;
+  padding:0;
+ }
+ .playfair
+ {
+ 
+  font-family: 'Playfair Display', serif;
+  height:12vh;
+ }
+ img
+ {
+ border-radius:100%;
+ border: 1px solid black;
+ height:40vh;
+ margin-top: 5vh;
+ }
+ p
+ {
+ width:60%;
+ margin:auto;
+ padding:auto;
+ }
+ button,a
+ {
+ background-color:#64CCC5;
+ width:10vw;
+ text-decoration:none;
+ height:10vh;
